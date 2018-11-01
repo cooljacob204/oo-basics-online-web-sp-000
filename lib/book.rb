@@ -4,6 +4,6 @@ class Book
   end
   attr_reader :title 
   attr_accessor :author
-  
+  attr_accessor :pagecount
 end
 
