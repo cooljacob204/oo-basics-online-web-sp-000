@@ -3,8 +3,6 @@ class Book
     @title = title
   end
   
-  def title
-    @title
-  end
+  attr_reader :title 
 end
 
